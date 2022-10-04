@@ -10,7 +10,7 @@ metadata:
   labels:
     app: fluentbit-resource-operator
     
-    chart: fluentbit-resource-1.1.0
+    chart: fluentbit-resource-1.2.0
     release: "fluentbit"
     heritage: "Helm"
 data:

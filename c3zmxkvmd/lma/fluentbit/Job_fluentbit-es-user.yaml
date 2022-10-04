@@ -17,7 +17,7 @@ spec:
       labels:
         app: fluentbit-resource
         
-        chart: fluentbit-resource-1.1.0
+        chart: fluentbit-resource-1.2.0
         release: "fluentbit"
         heritage: "Helm"
     spec:

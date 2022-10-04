@@ -1,10 +1,10 @@
-apiVersion: logging.kubesphere.io/v1alpha2
-kind: Filter
+apiVersion: fluentbit.fluent.io/v1alpha2
+kind: ClusterFilter
 metadata:
   name: simplify
   namespace: lma
   labels:
-    logging.kubesphere.io/enabled: "true"
+    fluentbit.fluent.io/enabled: "true"
     app.kubernetes.io/version: v0.0.1
 spec:
   match: "m_*"

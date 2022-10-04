@@ -1,11 +1,11 @@
 # Source: fluentbit-resource/templates/fluentbit/inputs.yaml
-apiVersion: logging.kubesphere.io/v1alpha2
-kind: Input
+apiVersion: fluentbit.fluent.io/v1alpha2
+kind: ClusterInput
 metadata:
   name: input-kube
   namespace: lma
   labels:
-    logging.kubesphere.io/enabled: "true"
+    fluentbit.fluent.io/enabled: "true"
     app.kubernetes.io/version: v0.0.1
 spec:
   tail: 
